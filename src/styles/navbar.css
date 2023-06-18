@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.links a {
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #ccc;
+}
+
+.cart-items {
+  display: flex;
+  background-color: #fff;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.cart-items p {
+  color: #333;
+  margin-right: 5px;
+}
