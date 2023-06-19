@@ -38,3 +38,20 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-container button {
+  padding: 4px 8px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+.quantity {
+  font-size: 18px;
+}
